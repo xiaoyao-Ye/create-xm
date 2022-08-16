@@ -1,0 +1,32 @@
+{
+  "name": "env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "simple-git-hooks",
+    "commit": "git-cz",
+    "commit:origin": "git pull && git add . && git-cz && git push",
+    "lint": "prettier --write \"**/*.{js,ts,json,vue,md}\"",
+    "lint-staged": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "git-cz": "^4.9.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "simple-git-hooks": "^2.8.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run lint-staged"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
+  }
+}

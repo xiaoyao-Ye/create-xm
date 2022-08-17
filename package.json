@@ -1,12 +1,36 @@
 {
   "name": "create-xm",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "create project",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "create-xm": "src/index.js",
+    "cva": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "xiaoyao-Ye",
+  "license": "ISC",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyao-Ye/create-xm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoyao-Ye/create-xm/issues"
+  },
+  "homepage": "https://github.com/xiaoyao-Ye/create-xm#readme",
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2"
+  }
 }

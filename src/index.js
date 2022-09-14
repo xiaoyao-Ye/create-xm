@@ -20,8 +20,8 @@ console.log('process.env.npm_config_user_agent', process.env.npm_config_user_age
 const argv = minimist(process.argv.slice(2), { string: ['_'] })
 const cwd = process.cwd();
 const FRAMEWORKS = [
-  { name: 'test', color: yellow },
   { name: 'env', color: cyan },
+  { name: 'uniapp', color: yellow },
 ]
 const TEMPLATES = FRAMEWORKS.map(m => m.name);
 

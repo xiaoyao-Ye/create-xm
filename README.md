@@ -24,25 +24,27 @@ pnpm create xm
 
 Then follow the prompts!
 
-You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a env project, run:
+You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a vue project, run:
 
 ```bash
 # npm 6.x
-npm create xm@latest my-app --template env
+npm create xm@latest my-app --template vue 
 
 # npm 7+, extra double-dash is needed:
-npm create xm@latest my-app -- --template env
+npm create xm@latest my-app -- --template vue 
 
 # yarn
-yarn create xm my-app --template env
+yarn create xm my-app --template vue 
 
 # pnpm
-pnpm create xm my-app --template env
+pnpm create xm my-app --template vue 
 ```
 
 Currently supported template presets include:
 
-- `env`
+- `npm`
+- `vue`
+- `uniapp`
 
 You can use `.` for the project name to scaffold in the current directory.
 

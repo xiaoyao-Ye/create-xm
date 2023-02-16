@@ -20,14 +20,15 @@ console.log('process.env.npm_config_user_agent', process.env.npm_config_user_age
 const argv = minimist(process.argv.slice(2), { string: ['_'] })
 const cwd = process.cwd();
 const FRAMEWORKS = [
-  { name: 'env', color: cyan },
+  { name: 'npm', color: cyan },
+  { name: 'vue', color: red },
   { name: 'uniapp', color: yellow },
 ]
 const TEMPLATES = FRAMEWORKS.map(m => m.name);
 
 
 const init = async () => {
-  const defaultTargetDir = 'xyy-project';
+  const defaultTargetDir = 'new-project';
   let targetDir = formatTargetDir(argv._[0]);
   let templateName = argv.template || argv.t;
 

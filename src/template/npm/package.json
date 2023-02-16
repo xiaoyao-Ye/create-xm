@@ -1,9 +1,10 @@
 {
-  "name": "env",
+  "name": "npm-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "preinstall": "npx only-allow pnpm",
     "postinstall": "simple-git-hooks",
     "commit": "git-cz",

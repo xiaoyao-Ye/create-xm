@@ -11,15 +11,15 @@ export default defineConfig({
     UnoCSS({}),
     Components({
       // https://github.com/antfu/unplugin-vue-components#usage
-      dts: './src/components.d.ts'
+      dts: './src/components.d.ts',
     }),
     AutoImport({
       // https://github.com/antfu/unplugin-auto-import#configurations
       imports: [
         'vue',
-        'vue-router'
+        'vue-router',
       ],
-      dts: './src/auto-imports.d.ts'
+      dts: './src/auto-imports.d.ts',
     }),
   ],
 })

@@ -13,6 +13,7 @@ html
 dist-ssr
 *.local
 stats.html
+pnpm-lock.yaml
 
 
 # Editor directories and files

@@ -1,0 +1,7 @@
+{
+  "editor.codeActionsOnSave": {
+    // 保存时自动修复
+    "source.fixAll.eslint": true
+  },
+  "cSpell.words": ["stylelint"]
+}

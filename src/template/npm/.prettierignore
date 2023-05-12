@@ -1,3 +1,11 @@
-node_modules
+/dist/*
+.local
+/node_modules/**
+
+**/*.svg
+**/*.sh
+
+/public/*
+stats.html
+
 package-lock.json
-dist

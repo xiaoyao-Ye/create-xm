@@ -42,30 +42,16 @@ pnpm create xm my-app --template vue
 
 Currently supported template presets include:
 
-- `npm`
-- `vue`
-- `uniapp`
+- [vitesee](https://github.com/antfu/vitesse)
+- [Vue-admin](https://github.com/xiaoyao-Ye/Vue-admin/tree/master)
+- [React-Admin](https://github.com/xiaoyao-Ye/React-Admin/tree/master)
+- [nest-admin](https://github.com/buqiyuan/nest-admin)
+- [uniapp](https://github.com/xiaoyao-Ye/template/tree/main/uniapp)
+- [npm](https://github.com/xiaoyao-Ye/template/tree/main/npm)
+- [basic](https://github.com/xiaoyao-Ye/frontend-basic)
 
 You can use `.` for the project name to scaffold in the current directory.
 
-## Community Templates
-
-create-vite is a tool to quickly start a project from a basic template for popular frameworks. Check out Awesome Vite for [community maintained templates](https://github.com/vitejs/awesome-vite#templates) that include other tools or target different frameworks. You can use a tool like [degit](https://github.com/Rich-Harris/degit) to scaffold your project with one of the templates.
-
-```bash
-npx degit user/project my-project
-cd my-project
-
-npm install
-npm run dev
-```
-
-If the project uses `main` as the default branch, suffix the project repo with `#main`
-
-```bash
-npx degit user/project#main my-project
-```
-
 ## license
 
-ISC
+MIT

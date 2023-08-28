@@ -30,7 +30,7 @@ jobs:
       - name: Versioning
         run: |
           git config --global user.email "yqcyecong@163.com"
-          git config --global user.name "_Ghosteye"
+          git config --global user.name "Ghosteye"
           pnpm version ${{ github.event.release.tag_name }}
         # pnpm version ${{ github.event.release.tag_name }} --no-git-tag-version --force
 

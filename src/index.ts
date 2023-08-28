@@ -38,7 +38,7 @@ const FRAMEWORKS: Framework[] = [
         name: "vue-admin",
         display: "Vue-Admin(Vue3.3、TypeScript、Vite4、Pinia、Element-Plus) ↗",
         color: green,
-        customCommand: "npx degit https://github.com/xiaoyao-Ye/React-Admin#master TARGET_DIR",
+        customCommand: "npx degit https://github.com/xiaoyao-Ye/Vue-admin#master TARGET_DIR",
       },
       {
         name: "vitesse",

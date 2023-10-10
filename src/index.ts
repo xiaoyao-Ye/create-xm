@@ -35,6 +35,12 @@ const FRAMEWORKS: Framework[] = [
     color: green,
     variants: [
       {
+        name: "vue-gh-pages",
+        display: "vue3 + ts + vite + lint + GitHub Actions ↗",
+        color: green,
+        customCommand: "npx degit https://github.com/xiaoyao-Ye/template/vue3-gh-pages#main TARGET_DIR",
+      },
+      {
         name: "vue-admin",
         display: "Vue-Admin(Vue3.3、TypeScript、Vite4、Pinia、Element-Plus) ↗",
         color: green,

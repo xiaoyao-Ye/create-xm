@@ -1,6 +1,6 @@
 {
   "name": "create-xm",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "create project",
   "main": "src/index.js",
   "type": "module",

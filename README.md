@@ -49,6 +49,8 @@ Currently supported template presets include:
 - [uniapp](https://github.com/xiaoyao-Ye/template/tree/main/uniapp)
 - [npm](https://github.com/xiaoyao-Ye/template/tree/main/npm)
 - [basic](https://github.com/xiaoyao-Ye/frontend-basic)
+- [vscode extension](https://github.com/xiaoyao-Ye/template/tree/main/vscode)
+- [vue3 github page](https://github.com/xiaoyao-Ye/template/tree/main/vue3-gh-pages)
 
 You can use `.` for the project name to scaffold in the current directory.
 

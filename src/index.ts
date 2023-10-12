@@ -90,6 +90,12 @@ const FRAMEWORKS: Framework[] = [
         customCommand: "npx degit https://github.com/xiaoyao-Ye/template/npm#main TARGET_DIR",
       },
       {
+        name: "vscode extension",
+        display: "vscode extension ↗",
+        color: blue,
+        customCommand: "npx degit https://github.com/xiaoyao-Ye/template/vscode#main TARGET_DIR",
+      },
+      {
         name: "frontend-basic",
         display: "frontend-basic ↗",
         color: reset,

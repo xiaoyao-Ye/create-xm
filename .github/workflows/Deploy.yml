@@ -27,12 +27,12 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm config set '//registry.npmjs.org/:_authToken' $NODE_AUTH_TOKEN
 
-      - name: Versioning
-        run: |
-          git config --global user.email "yqcyecong@163.com"
-          git config --global user.name "Ghosteye"
-          pnpm version ${{ github.event.release.tag_name }}
-        # pnpm version ${{ github.event.release.tag_name }} --no-git-tag-version --force
+      # - name: Versioning
+      #   run: |
+      #     git config --global user.email "yqcyecong@163.com"
+      #     git config --global user.name "_Ghosteye"
+      #     pnpm version ${{ github.event.release.tag_name }}
+      #   # pnpm version ${{ github.event.release.tag_name }} --no-git-tag-version --force
 
       - name: Install and Build
         run: |
